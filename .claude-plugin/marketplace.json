@@ -1,0 +1,1209 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "description": "Raihan's curated collection of Claude Code plugins and skills, hand-picked and reviewed from GitHub, grouped by category. Index model: this marketplace only points to each item's original repository (whole plugin repos, or the exact skill folders inside them); no third-party code is copied into this repo.",
+  "name": "bag-of-skills",
+  "owner": {
+    "name": "Raihan"
+  },
+  "plugins": [
+    {
+      "author": {
+        "name": "Addy Osmani"
+      },
+      "category": "engineering",
+      "description": "Production-grade engineering skills for AI coding agents, covering the full software development lifecycle from spec to ship. By Addy Osmani (Google Chrome). 115k+ stars, MIT.",
+      "homepage": "https://github.com/addyosmani/agent-skills",
+      "name": "agent-skills",
+      "source": {
+        "repo": "addyosmani/agent-skills",
+        "source": "github"
+      }
+    },
+    {
+      "name": "superpowers",
+      "author": {
+        "name": "obra"
+      },
+      "category": "engineering",
+      "description": "Agent working rules: plan first, write a test, then build, then verify its own work before saying done. 306k stars. Heavy for single-step writing/design tasks.",
+      "homepage": "https://github.com/obra/superpowers",
+      "source": {
+        "source": "github",
+        "repo": "obra/superpowers"
+      }
+    },
+    {
+      "name": "mattpocock-skills",
+      "author": {
+        "name": "Matt Pocock"
+      },
+      "category": "engineering",
+      "description": "38 engineering skills from Matt Pocock, including ones that interrogate the plan before the agent writes code. 305k stars.",
+      "homepage": "https://github.com/mattpocock/skills",
+      "source": {
+        "source": "github",
+        "repo": "mattpocock/skills"
+      }
+    },
+    {
+      "name": "ponytail",
+      "author": {
+        "name": "DietrichGebert"
+      },
+      "category": "engineering",
+      "description": "Pushes the agent to pick the simplest fix and write as little code as possible. 178k stars.",
+      "homepage": "https://github.com/DietrichGebert/ponytail",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      }
+    },
+    {
+      "name": "egm",
+      "author": {
+        "name": "Google"
+      },
+      "category": "engineering",
+      "description": "Elephant-Goldfish Model (EGM): review rules that check a design or spec at two levels, the big picture and the fine detail. 7.2k stars.",
+      "homepage": "https://github.com/google/elephant-goldfish-model",
+      "source": {
+        "source": "github",
+        "repo": "google/elephant-goldfish-model"
+      }
+    },
+    {
+      "name": "rea",
+      "author": {
+        "name": "morluto"
+      },
+      "category": "engineering",
+      "description": "REA (Reverse Engineer Anything): works out how any app actually works, from what it shows on screen down to the code underneath. 398k stars in the office catalog.",
+      "homepage": "https://github.com/morluto/rea",
+      "source": {
+        "source": "github",
+        "repo": "morluto/rea"
+      }
+    },
+    {
+      "name": "ecc",
+      "author": {
+        "name": "affaan-m"
+      },
+      "category": "engineering",
+      "description": "ECC: a large pack of skills, memory, and security checks in one bundle. 291k stars. Much of it overlaps a Hermes-style setup.",
+      "homepage": "https://github.com/affaan-m/ECC",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/ECC"
+      }
+    },
+    {
+      "name": "andrej-karpathy-skills",
+      "author": {
+        "name": "multica-ai"
+      },
+      "category": "engineering",
+      "description": "A single rule file for cleaner code, distilled from Andrej Karpathy's notes. 225k stars. The repo carries no clear license.",
+      "homepage": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "source": {
+        "source": "github",
+        "repo": "multica-ai/andrej-karpathy-skills"
+      }
+    },
+    {
+      "name": "understand-anything",
+      "author": {
+        "name": "Egonex-AI"
+      },
+      "category": "engineering",
+      "description": "Turns code into a clickable map that explains itself. 88k stars. Duplicates Graphify's job.",
+      "homepage": "https://github.com/Egonex-AI/Understand-Anything",
+      "source": {
+        "source": "github",
+        "repo": "Egonex-AI/Understand-Anything"
+      }
+    },
+    {
+      "name": "gstack",
+      "author": {
+        "name": "Garry Tan"
+      },
+      "category": "engineering",
+      "description": "23 tools acting as CEO, designer, engineering manager, and QA; strongest at browsing the live web. 137k stars. Wrapped from the root SKILL.md.",
+      "homepage": "https://github.com/garrytan/gstack",
+      "source": {
+        "source": "github",
+        "repo": "garrytan/gstack"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "bmad",
+      "author": {
+        "name": "BMAD Code"
+      },
+      "category": "engineering",
+      "description": "BMAD Method: a shadow agent team (analyst, PM, architect, developer) carrying an idea to a build, as 30+ skills. 54k stars.",
+      "homepage": "https://github.com/bmad-code-org/BMAD-METHOD",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bmad-code-org/BMAD-METHOD.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./bmad",
+        "./bmad-advanced-elicitation",
+        "./bmad-agent-analyst",
+        "./bmad-agent-architect",
+        "./bmad-agent-dev",
+        "./bmad-agent-pm",
+        "./bmad-agent-po",
+        "./bmad-agent-ux-designer",
+        "./bmad-architecture",
+        "./bmad-brainstorming",
+        "./bmad-build",
+        "./bmad-build-auto",
+        "./bmad-code-review",
+        "./bmad-customize",
+        "./bmad-deep-recon",
+        "./bmad-eval",
+        "./bmad-facilitate",
+        "./bmad-forge-idea",
+        "./bmad-ingest",
+        "./bmad-party-mode",
+        "./bmad-project-context",
+        "./bmad-qa-generate-e2e-tests",
+        "./bmad-retrospective",
+        "./bmad-review",
+        "./bmad-shard-pro",
+        "./bmad-toolsmith",
+        "./bmad-ux",
+        "./bmad-walkthrough",
+        "./bmod-core-tools",
+        "./bmod-founder",
+        "./bmod-method",
+        "./bmod-toolsmith"
+      ]
+    },
+    {
+      "name": "cli-anything",
+      "author": {
+        "name": "HKUDS"
+      },
+      "category": "engineering",
+      "description": "Agent-native CLI harnesses for 40+ apps (Blender, GIMP, Audacity, Draw.io, Obsidian, ComfyUI, Godot, QGIS) so an agent can drive desktop software from the terminal. 57k stars. The app itself must be installed on the same machine.",
+      "homepage": "https://github.com/HKUDS/CLI-Anything",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/HKUDS/CLI-Anything.git",
+        "path": "cli-anything-plugin"
+      }
+    },
+    {
+      "name": "playwright-cli",
+      "author": {
+        "name": "Microsoft"
+      },
+      "category": "engineering",
+      "description": "Browser automation from the terminal: drive pages, test flows, take screenshots. 14k stars, Apache-2.0. Needs the browser download.",
+      "homepage": "https://github.com/microsoft/playwright-cli",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/microsoft/playwright-cli.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./playwright-cli"
+      ]
+    },
+    {
+      "name": "find-skills",
+      "author": {
+        "name": "Vercel Labs"
+      },
+      "category": "engineering",
+      "description": "The skills.sh registry skill: teaches the agent to search, install, and update SKILL.md packages via 'npx skills find/add'. 36k stars. Only knows SKILL.md packages.",
+      "homepage": "https://github.com/vercel-labs/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/vercel-labs/skills.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./find-skills"
+      ]
+    },
+    {
+      "name": "hermes-jev-skills",
+      "author": {
+        "name": "kerpopule"
+      },
+      "category": "engineering",
+      "description": "13 Hermes skills that put Jev in charge of small decisions: model routing, skill selection, memory, compaction. The owner declined these for the office on 29 Oct 2026; included in this bag at the owner's direction. Built for Hermes, not Claude Code.",
+      "homepage": "https://github.com/kerpopule/hermes-jev-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kerpopule/hermes-jev-skills.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./jev-blender",
+        "./jev-browser-use",
+        "./jev-compaction",
+        "./jev-computer-use",
+        "./jev-frontier-work",
+        "./jev-mailbox",
+        "./jev-memory",
+        "./jev-model-routing",
+        "./jev-search",
+        "./jev-setup",
+        "./jev-skill-select",
+        "./jev-social-research",
+        "./jev-video-qa"
+      ]
+    },
+    {
+      "name": "claude-x-jev",
+      "author": {
+        "name": "charlesdove977"
+      },
+      "category": "engineering",
+      "description": "A Claude Code skill that hands yes/no, label, and score decisions to Jev (TypeSafe's decision model on OpenRouter) so the expensive model only reads what needs judgment. Needs paid OpenRouter credit. Rejected for the office; included here at the owner's direction.",
+      "homepage": "https://github.com/charlesdove977/claude-x-jev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/charlesdove977/claude-x-jev.git",
+        "path": "skill"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "author": {
+        "name": "Cloudflare"
+      },
+      "category": "infrastructure",
+      "description": "Official Cloudflare skills for building, testing, and deploying applications on the Cloudflare platform (Workers, Agents SDK, Durable Objects, Wrangler). 3.3k+ stars, Apache-2.0.",
+      "homepage": "https://github.com/cloudflare/skills",
+      "name": "cloudflare",
+      "source": {
+        "repo": "cloudflare/skills",
+        "source": "github"
+      }
+    },
+    {
+      "name": "claude-mem",
+      "author": {
+        "name": "thedotmack"
+      },
+      "category": "infrastructure",
+      "description": "Remembers past sessions and injects the useful parts into new ones. 103k stars. Can collide with a setup that already has its own memory system.",
+      "homepage": "https://github.com/thedotmack/claude-mem",
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    },
+    {
+      "author": {
+        "name": "qybaihe"
+      },
+      "category": "security",
+      "description": "BLA (Blind LLM Agents): hardens build artifacts (JS bundles, Electron, WASM, Python, binaries) with decoy code and canary credentials so AI reverse-engineering agents burn tokens on shadows while the app runs identically for real users. 5.3k+ stars, MIT. Very young project; treat claims as unverified.",
+      "homepage": "https://github.com/qybaihe/bla",
+      "name": "bla",
+      "skills": [
+        "./blind-llm-agents"
+      ],
+      "source": {
+        "path": ".agents/skills",
+        "source": "git-subdir",
+        "url": "https://github.com/qybaihe/bla.git"
+      },
+      "strict": false
+    },
+    {
+      "name": "strix",
+      "author": {
+        "name": "usestrix"
+      },
+      "category": "security",
+      "description": "Companion skills for Strix, the autonomous AI penetration-testing agent: API security testing, OWASP Top 10, CI scanning, vulnerability fixing. 72k stars, Apache-2.0. The skills wrap only; Strix itself is a separate app needing Docker and a paid LLM key. NEVER point it at systems you do not own.",
+      "homepage": "https://github.com/usestrix/strix",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/usestrix/strix.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./api-security-testing",
+        "./application-security-testing",
+        "./ci-security-scanning-with-strix",
+        "./find-security-vulnerabilities-in-code",
+        "./fix-security-vulnerabilities-with-strix",
+        "./managed-pentesting-with-strix",
+        "./owasp-top-10-testing",
+        "./penetration-testing-with-strix",
+        "./web-app-penetration-testing"
+      ]
+    },
+    {
+      "author": {
+        "name": "ConardLi"
+      },
+      "category": "creative",
+      "description": "Garden Skills by ConardLi: six skills in one wrap — beautiful-article (source material into a polished single-file HTML article), gpt-image-2 (image generation/editing with 80+ templates), kb-retriever (local knowledge-base QA), motion-showreel (code-rendered motion videos), web-design-engineer (polished browser visual artifacts), web-video-presentation (articles/scripts into click-driven video-like web decks). 14.9k+ stars, MIT.",
+      "homepage": "https://github.com/ConardLi/garden-skills",
+      "name": "garden-skills",
+      "skills": [
+        "./beautiful-article",
+        "./gpt-image-2",
+        "./kb-retriever",
+        "./motion-showreel",
+        "./web-design-engineer",
+        "./web-video-presentation"
+      ],
+      "source": {
+        "path": "skills",
+        "source": "git-subdir",
+        "url": "https://github.com/ConardLi/garden-skills.git"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "wheresryan22"
+      },
+      "category": "creative",
+      "description": "Anatomy: from a one-line prompt, the agent draws complex machines/systems as interactive isometric illustrations (SVG/WebGL) that can be rotated, exploded, and run. 26.7k+ stars, MIT. Went viral in Oct 2026; commits have been quiet since, and a single figure can take a long agent run.",
+      "homepage": "https://github.com/wheresryan22/anatomy",
+      "name": "anatomy",
+      "skills": [
+        "./"
+      ],
+      "source": {
+        "repo": "wheresryan22/anatomy",
+        "source": "github"
+      },
+      "strict": false
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "author": {
+        "name": "nextlevelbuilder"
+      },
+      "category": "creative",
+      "description": "Gives the agent a designer's eye: layout, colour, type, spacing. 141k stars.",
+      "homepage": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      }
+    },
+    {
+      "name": "impeccable",
+      "author": {
+        "name": "pbakaus"
+      },
+      "category": "creative",
+      "description": "A design language for the agent so everything looks like one product. 90k stars.",
+      "homepage": "https://github.com/pbakaus/impeccable",
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      }
+    },
+    {
+      "name": "taste-skill",
+      "author": {
+        "name": "Leonxlnx"
+      },
+      "category": "creative",
+      "description": "Taste: art direction for the agent — works from reference images and checks the result in a real browser. 103k stars, MIT.",
+      "homepage": "https://github.com/Leonxlnx/taste-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Leonxlnx/taste-skill.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./taste-skill"
+      ]
+    },
+    {
+      "name": "taste-teardown",
+      "author": {
+        "name": "senlindesign"
+      },
+      "category": "creative",
+      "description": "Website Taste Teardown: pulls the concrete design tokens (colour, type, spacing) plus the reasoning out of a website you like. 430 stars. No license file in the repo.",
+      "homepage": "https://github.com/senlindesign/taste-skill",
+      "source": {
+        "source": "github",
+        "repo": "senlindesign/taste-skill"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "hallmark",
+      "author": {
+        "name": "Nutlope"
+      },
+      "category": "creative",
+      "description": "16 anti-AI-look rules, 48 themes, plus scripts that check a page at 8 screen widths and screenshot it. 39k stars, MIT. Upstream forbids silent redesigns — only use on an existing design when explicitly asked.",
+      "homepage": "https://github.com/Nutlope/hallmark",
+      "source": {
+        "source": "github",
+        "repo": "Nutlope/hallmark"
+      }
+    },
+    {
+      "name": "antislop",
+      "author": {
+        "name": "miqdadbadjuber"
+      },
+      "category": "creative",
+      "description": "Anti-Slop: four rule sets that strip AI slop from UI, code comments, layout, and copied text. 7.3k stars, MIT. Guards style only; gives no design direction.",
+      "homepage": "https://github.com/miqdadbadjuber/anti-slop",
+      "source": {
+        "source": "github",
+        "repo": "miqdadbadjuber/anti-slop"
+      }
+    },
+    {
+      "name": "emil-kowalski-skills",
+      "author": {
+        "name": "Emil Kowalski"
+      },
+      "category": "creative",
+      "description": "18 design and motion skills from Emil Kowalski: build an animation, animation performance and vocabulary, Apple-style design, find/improve/review animation opportunities, pick a UI library, break UI on purpose, prototype variants, native-feeling mobile, plus Swift and Expo variants. 50k stars, MIT.",
+      "homepage": "https://github.com/emilkowalski/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/emilkowalski/skills.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./animate",
+        "./animate-expo",
+        "./animation-performance",
+        "./animation-vocabulary",
+        "./apple-design",
+        "./ask-sonner",
+        "./break-ui",
+        "./choreograph",
+        "./emil-design-eng",
+        "./find-animation-opportunities",
+        "./gestures",
+        "./improve-animations",
+        "./mobile-native",
+        "./pick-ui-library",
+        "./prototype",
+        "./remove-animations",
+        "./review-animations",
+        "./write-swift"
+      ]
+    },
+    {
+      "name": "diagram-design",
+      "author": {
+        "name": "cathrynlavery"
+      },
+      "category": "creative",
+      "description": "Editorial-style diagrams in HTML, 45 types, clean without clutter. 61k stars.",
+      "homepage": "https://github.com/cathrynlavery/diagram-design",
+      "source": {
+        "source": "github",
+        "repo": "cathrynlavery/diagram-design"
+      }
+    },
+    {
+      "name": "logo-design",
+      "author": {
+        "name": "kaankiziltug"
+      },
+      "category": "creative",
+      "description": "Professional logo and brand-mark process, from brief to presentation. Marks only, not web layouts. 4.8k stars, MIT.",
+      "homepage": "https://github.com/kaankiziltug/logo-design-skill",
+      "source": {
+        "source": "github",
+        "repo": "kaankiziltug/logo-design-skill"
+      }
+    },
+    {
+      "name": "baoyu-design",
+      "author": {
+        "name": "JimLiu"
+      },
+      "category": "creative",
+      "description": "Builds design artifacts as self-contained HTML: mockups, wireframes, prototypes, landing pages, decks. 4.5k stars, MIT. HTML artifacts only. Wrapped from the archive folder — the upstream layout is non-standard.",
+      "homepage": "https://github.com/JimLiu/baoyu-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/JimLiu/baoyu-design.git",
+        "path": "archive"
+      },
+      "strict": false,
+      "skills": [
+        "./baoyu-design"
+      ]
+    },
+    {
+      "name": "designlang",
+      "author": {
+        "name": "Manavarya09"
+      },
+      "category": "creative",
+      "description": "designlang (design-extract): points a headless browser at any URL and writes out 17+ files — DTCG tokens, Tailwind config, shadcn theme, Figma variables, motion tokens, hover/focus states, WCAG contrast scores, responsive layout at 4 breakpoints. 4.4k stars, MIT. Needs Node plus a browser download.",
+      "homepage": "https://github.com/Manavarya09/design-extract",
+      "source": {
+        "source": "github",
+        "repo": "Manavarya09/design-extract"
+      }
+    },
+    {
+      "name": "ux-ui-agent-skills",
+      "author": {
+        "name": "plugin87"
+      },
+      "category": "creative",
+      "description": "Design system and production UI standards: components, tokens, accessibility, WCAG gates, plus a small CLI. 3k stars, MIT. Heavy for a one-page landing.",
+      "homepage": "https://github.com/plugin87/ux-ui-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "plugin87/ux-ui-agent-skills"
+      }
+    },
+    {
+      "name": "oil-ui",
+      "author": {
+        "name": "oil-oil"
+      },
+      "category": "creative",
+      "description": "Explores design directions, builds a multi-style comparison page in one screen, then refines from real screenshots. 2.4k stars, MIT. Upstream docs are Mandarin and its auto-update script is disabled.",
+      "homepage": "https://github.com/oil-oil/oil-ui",
+      "source": {
+        "source": "github",
+        "repo": "oil-oil/oil-ui"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "brand-identity",
+      "author": {
+        "name": "fatihaydost"
+      },
+      "category": "creative",
+      "description": "Full brand identity set from one brief: logo, typography, palette. 176 stars, MIT. Overlaps Logo Design and Design Skills.",
+      "homepage": "https://github.com/fatihaydost/brand-identity-skill",
+      "source": {
+        "source": "github",
+        "repo": "fatihaydost/brand-identity-skill"
+      }
+    },
+    {
+      "name": "designskills",
+      "author": {
+        "name": "zstvns"
+      },
+      "category": "creative",
+      "description": "Five skills covering brand, brand strategy, creative direction, design principles, and web design. 18 stars, MIT. Overlaps the other brand skills; pick one source, not both.",
+      "homepage": "https://github.com/zstvns/design-skills",
+      "source": {
+        "source": "github",
+        "repo": "zstvns/design-skills"
+      }
+    },
+    {
+      "name": "gsap-skills",
+      "author": {
+        "name": "GreenSock"
+      },
+      "category": "creative",
+      "description": "Eight official skills that teach an agent correct GSAP animation: core API, timelines, ScrollTrigger, plugins, React/Vue/Svelte, performance. 17k stars, MIT. Overkill for small hover/click effects.",
+      "homepage": "https://github.com/greensock/gsap-skills",
+      "source": {
+        "source": "github",
+        "repo": "greensock/gsap-skills"
+      }
+    },
+    {
+      "name": "transitions-dev",
+      "author": {
+        "name": "Jakubantalik"
+      },
+      "category": "creative",
+      "description": "43+ crafted UI transitions (modal, dropdown, badge, icon swap, panel reveal, page slide) with a skill per transition plus an agent that can audit and fix motion in a repo. 5.8k stars, custom license: commercial use allowed, reselling the library itself is not.",
+      "homepage": "https://github.com/Jakubantalik/transitions.dev",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Jakubantalik/transitions.dev.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./transitions-dev",
+        "./transitions-polish",
+        "./transitions-ui-generation"
+      ]
+    },
+    {
+      "author": {
+        "name": "HeyGen"
+      },
+      "category": "video",
+      "description": "HyperFrames by HeyGen: write HTML, render video. Compositions, GSAP, and runtime adapters for programmatic video. 82k+ stars, Apache-2.0. Also hosts the reverse-any-video skill (the reverse feature itself is a paid Pro feature).",
+      "homepage": "https://github.com/heygen-com/hyperframes",
+      "name": "hyperframes",
+      "source": {
+        "repo": "heygen-com/hyperframes",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "name": "latent-spaces"
+      },
+      "category": "video",
+      "description": "Turn the project in the current folder into a polished, shareable 15-25 second launch video, rendered with HyperFrames. 21k+ stars, MIT.",
+      "homepage": "https://github.com/latent-spaces/brag",
+      "name": "brag",
+      "source": {
+        "repo": "latent-spaces/brag",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "name": "Remotion"
+      },
+      "category": "video",
+      "description": "Official Remotion skills: best practices, captions, creation, docs, interactivity, licensing, maps, markup, multimedia, and rendering. 6.8k+ stars. Note the Remotion framework itself uses a special license (not pure open source).",
+      "homepage": "https://github.com/remotion-dev/skills",
+      "name": "remotion-skills",
+      "skills": [
+        "./remotion-best-practices",
+        "./remotion-captions",
+        "./remotion-create",
+        "./remotion-docs",
+        "./remotion-interactivity",
+        "./remotion-license",
+        "./remotion-maps",
+        "./remotion-markup",
+        "./remotion-multimedia",
+        "./remotion-render"
+      ],
+      "source": {
+        "path": "skills",
+        "source": "git-subdir",
+        "url": "https://github.com/remotion-dev/skills.git"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "hypit-ai"
+      },
+      "category": "video",
+      "description": "Hypit: paste a viral video (TikTok/Reel/Short) and the agent dissects its shots, pacing, dialogue, word-timed captions, B-roll, and effects, then rebuilds it as an editable, re-runnable workflow (swap host/hook/product/language for ~100 variants). 29k+ stars. Generation models are BYOK or paid (HypiHub).",
+      "homepage": "https://github.com/hypit-ai/hypit",
+      "name": "hypit",
+      "skills": [
+        "./hypit"
+      ],
+      "source": {
+        "path": "skills",
+        "source": "git-subdir",
+        "url": "https://github.com/hypit-ai/hypit.git"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "browser-use"
+      },
+      "category": "video",
+      "description": "video-use by the browser-use team: the agent edits raw footage conversationally. The LLM reads word-level transcripts (ElevenLabs Scribe) plus an EDL instead of watching video, then renders via ffmpeg with a self-evaluation loop: cut filler words and dead air, color grade, burn subtitles, animated overlays. ~31k stars, MIT. Needs an ElevenLabs API key and local ffmpeg. Includes the manim-video skill.",
+      "homepage": "https://github.com/browser-use/video-use",
+      "name": "video-use",
+      "skills": [
+        "./",
+        "./skills/manim-video"
+      ],
+      "source": {
+        "repo": "browser-use/video-use",
+        "source": "github"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "Tejashmakwana"
+      },
+      "category": "video",
+      "description": "Motionmaxxing: an agent skill that turns stiff AI video into professional motion design, with easing timing measured frame-by-frame from 53 pro film moments; renders locally with HTML/GSAP + ffmpeg. 1.5k+ stars, Apache-2.0. Early release (Oct 2026).",
+      "homepage": "https://github.com/Tejashmakwana/motionmaxxing",
+      "name": "motionmaxxing",
+      "skills": [
+        "./"
+      ],
+      "source": {
+        "repo": "Tejashmakwana/motionmaxxing",
+        "source": "github"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "charlie947"
+      },
+      "category": "video",
+      "description": "Motion graphics skills for Claude Code (from Charlie Hills' curation): animated charts, Apple-style launch films, brand intake, launch videos, loop covers, milestone reveals, model showdowns, motion briefs/effects/prompts. 644 stars, MIT. Exports via HyperFrames.",
+      "homepage": "https://github.com/charlie947/motion-graphics-skills",
+      "name": "motion-graphics-skills",
+      "skills": [
+        "./animated-chart",
+        "./apple-launch-film",
+        "./brand-intake",
+        "./launch-video",
+        "./loop-cover",
+        "./milestone-reveal",
+        "./model-showdown",
+        "./motion-brief-writer",
+        "./motion-effects",
+        "./motion-prompt-writer"
+      ],
+      "source": {
+        "path": "skills",
+        "source": "git-subdir",
+        "url": "https://github.com/charlie947/motion-graphics-skills.git"
+      },
+      "strict": false
+    },
+    {
+      "author": {
+        "name": "whaleyxbt"
+      },
+      "category": "video",
+      "description": "Claude Motion: a motion-design toolkit for coding agents on top of Remotion — numeric motion rules (easing, stagger, reading holds), a contact-sheet self-review loop, and a built-in sound engine. Skills: motion-design, review-loop, sound-design, web-sims. 944 stars, MIT. Very early (Sep 2026, no releases yet).",
+      "homepage": "https://github.com/whaleyxbt/claude-motion",
+      "name": "claude-motion",
+      "skills": [
+        "./motion-design",
+        "./review-loop",
+        "./sound-design",
+        "./web-sims"
+      ],
+      "source": {
+        "path": ".claude/skills",
+        "source": "git-subdir",
+        "url": "https://github.com/whaleyxbt/claude-motion.git"
+      },
+      "strict": false
+    },
+    {
+      "name": "openmontage",
+      "author": {
+        "name": "OpenMontageInc"
+      },
+      "category": "video",
+      "description": "OpenMontage: a video studio inside the agent — script, cut, voice, render — as a large skill pack (90+ skills: video generation/editing, TTS, subtitles, animation systems). 72k stars, AGPL-3.0. Needs FFmpeg. Repo moved from calesthio/OpenMontage to OpenMontageInc/OpenMontage.",
+      "homepage": "https://github.com/OpenMontageInc/OpenMontage",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/OpenMontageInc/OpenMontage.git",
+        "path": ".agents/skills"
+      },
+      "strict": false,
+      "skills": [
+        "./3d-asset-generation",
+        "./acestep",
+        "./agents",
+        "./ai-video-gen",
+        "./atlas-cloud",
+        "./avatar-video",
+        "./azure-speech-to-text",
+        "./azure-text-to-speech",
+        "./beautiful-mermaid",
+        "./bfl-api",
+        "./canvas-procedural-animation",
+        "./character-animation-qa",
+        "./character-rigging",
+        "./comfyui",
+        "./create-video",
+        "./d3-viz",
+        "./dashscope",
+        "./doubao-tts",
+        "./elevenlabs",
+        "./faceswap",
+        "./ffmpeg",
+        "./fish-audio-tts",
+        "./flux-best-practices",
+        "./framer-motion",
+        "./gemini-omni",
+        "./grok-media",
+        "./gsap-core",
+        "./gsap-frameworks",
+        "./gsap-performance",
+        "./gsap-plugins",
+        "./gsap-react",
+        "./gsap-scrolltrigger",
+        "./gsap-timeline",
+        "./gsap-utils",
+        "./heygen",
+        "./hyperframes",
+        "./hyperframes-animation",
+        "./hyperframes-cli",
+        "./hyperframes-core",
+        "./hyperframes-creative",
+        "./hyperframes-media",
+        "./hyperframes-registry",
+        "./kling-official",
+        "./lottie-bodymovin",
+        "./ltx2",
+        "./lyria",
+        "./manim-composer",
+        "./manimce-best-practices",
+        "./manimgl-best-practices",
+        "./media-use",
+        "./minimax-h3",
+        "./motion-graphics",
+        "./music",
+        "./music-to-video",
+        "./pika-h3-flex",
+        "./playwright-recording",
+        "./pose-library-design",
+        "./provider-model-refresh",
+        "./remotion",
+        "./remotion-best-practices",
+        "./remotion-to-hyperframes",
+        "./seedance-2-0",
+        "./seedance-2-5",
+        "./setup-api-key",
+        "./sound-effects",
+        "./speech-to-text",
+        "./svg-character-animation",
+        "./synthetic-screen-recording",
+        "./tailwind-design-system",
+        "./text-to-speech",
+        "./threejs-animation",
+        "./threejs-fundamentals",
+        "./threejs-geometry",
+        "./threejs-interaction",
+        "./threejs-lighting",
+        "./threejs-loaders",
+        "./threejs-materials",
+        "./threejs-postprocessing",
+        "./threejs-shaders",
+        "./threejs-textures",
+        "./threejs-world-generation",
+        "./vercel-composition-patterns",
+        "./vercel-react-best-practices",
+        "./video-download",
+        "./video-edit",
+        "./video-toolkit",
+        "./video-translate",
+        "./video-understand",
+        "./visual-style",
+        "./web-design-guidelines",
+        "./website-to-video"
+      ]
+    },
+    {
+      "name": "last30days",
+      "author": {
+        "name": "mvanhorn"
+      },
+      "category": "research",
+      "description": "Researches what people said in the last 30 days across Reddit, X, YouTube, and the web, then summarises with sources. 65k stars, MIT.",
+      "homepage": "https://github.com/mvanhorn/last30days-skill",
+      "source": {
+        "source": "github",
+        "repo": "mvanhorn/last30days-skill"
+      }
+    },
+    {
+      "name": "agent-reach",
+      "author": {
+        "name": "Panniantong"
+      },
+      "category": "research",
+      "description": "Lets the agent read and search X, Reddit, YouTube, and GitHub without paying API fees. 105k stars, MIT. Public sources only; sites can block them. Wrapped from the bundled skill folder.",
+      "homepage": "https://github.com/Panniantong/Agent-Reach",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Panniantong/Agent-Reach.git",
+        "path": "agent_reach/skill"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "author": {
+        "name": "Every App"
+      },
+      "category": "seo",
+      "description": "OpenSEO: an open-source, pay-as-you-go Semrush/Ahrefs alternative packaged as agent skills — site audit, keyword research, backlink analysis, rank tracking, plus the ai-visibility-audit skill (how your brand shows up in ChatGPT/Gemini/Google AI answers), local-seo, and competitor-analysis skills. 27k+ stars, MIT. Data typically comes from inexpensive paid APIs (DataForSEO/SerpApi).",
+      "homepage": "https://github.com/every-app/open-seo",
+      "name": "open-seo",
+      "source": {
+        "path": "plugins/openseo",
+        "source": "git-subdir",
+        "url": "https://github.com/every-app/open-seo.git"
+      }
+    },
+    {
+      "author": {
+        "name": "Ryze-AI-Adgent"
+      },
+      "category": "seo",
+      "description": "open-seo-mcp-skills: a free MCP server plus SEO/GEO skills for Claude — keyword research, rank tracking, and audits. 9.2k+ stars, MIT.",
+      "homepage": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+      "name": "open-seo-mcp-skills",
+      "source": {
+        "repo": "Ryze-AI-Adgent/open-seo-mcp-skills",
+        "source": "github"
+      }
+    },
+    {
+      "name": "marketing-skills",
+      "author": {
+        "name": "coreyhaines31"
+      },
+      "category": "marketing",
+      "description": "Sales material skills: copywriting, SEO, conversion, analytics. 56k stars. Best once a product exists to sell.",
+      "homepage": "https://github.com/coreyhaines31/marketingskills",
+      "source": {
+        "source": "github",
+        "repo": "coreyhaines31/marketingskills"
+      }
+    },
+    {
+      "name": "anthropic-skills",
+      "author": {
+        "name": "Anthropic"
+      },
+      "category": "documents",
+      "description": "Official Anthropic skills pack: docx, pdf, pptx, xlsx, webapp-testing (Playwright), frontend-design, brand guidelines, canvas design, MCP builder, skill creator, and more. 184k stars. Wrapped from the skills folder.",
+      "homepage": "https://github.com/anthropics/skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/anthropics/skills.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./academy-guide",
+        "./algorithmic-art",
+        "./brand-guidelines",
+        "./canvas-design",
+        "./claude-api",
+        "./discernment-nudge",
+        "./doc-coauthoring",
+        "./docx",
+        "./frontend-design",
+        "./internal-comms",
+        "./mcp-builder",
+        "./pdf",
+        "./pptx",
+        "./skill-creator",
+        "./slack-gif-creator",
+        "./theme-factory",
+        "./web-artifacts-builder",
+        "./webapp-testing",
+        "./xlsx"
+      ]
+    },
+    {
+      "name": "ppt-master",
+      "author": {
+        "name": "hugohe3"
+      },
+      "category": "documents",
+      "description": "Turns a document or topic into a real editable PowerPoint, not slide images. 69k stars.",
+      "homepage": "https://github.com/hugohe3/ppt-master",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/hugohe3/ppt-master.git",
+        "path": "skills"
+      }
+    },
+    {
+      "name": "caveman",
+      "author": {
+        "name": "JuliusBrussee"
+      },
+      "category": "productivity",
+      "description": "Short plain answers so tokens stop burning. 115k stars, Apache-2.0. Bad for explaining concepts to the owner — short answers make it worse there.",
+      "homepage": "https://github.com/JuliusBrussee/caveman",
+      "source": {
+        "source": "github",
+        "repo": "JuliusBrussee/caveman"
+      }
+    },
+    {
+      "name": "token-saver",
+      "author": {
+        "name": "sngraihan"
+      },
+      "category": "productivity",
+      "description": "The curator's own skill: thins large tool output, skips repeated commands, gates scheduled LLM sessions on real state changes, and measures daily tokens per profile. MIT. Does not compress instruction files or memory.",
+      "homepage": "https://github.com/sngraihan/token-saver",
+      "source": {
+        "source": "github",
+        "repo": "sngraihan/token-saver"
+      },
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "career-ops",
+      "author": {
+        "name": "career-ops-hq"
+      },
+      "category": "productivity",
+      "description": "Scores each job ad 1-5 against a CV, then tailors the CV and cover letter for the ones worth applying to. 77k stars, MIT. Handles personal data — treat with care.",
+      "homepage": "https://github.com/career-ops-hq/career-ops",
+      "source": {
+        "source": "github",
+        "repo": "career-ops-hq/career-ops"
+      }
+    },
+    {
+      "name": "i-have-adhd",
+      "author": {
+        "name": "ayghri"
+      },
+      "category": "productivity",
+      "description": "Puts the answer first so the point is never buried mid-paragraph. 59k stars, MIT.",
+      "homepage": "https://github.com/ayghri/i-have-adhd",
+      "source": {
+        "source": "github",
+        "repo": "ayghri/i-have-adhd"
+      }
+    },
+    {
+      "name": "open-steps",
+      "author": {
+        "name": "kharmanskyi"
+      },
+      "category": "productivity",
+      "description": "Eight skills that make an agent talk to non-technical people: one-screen reports, followable steps, checking another session's claims. 1.2k stars, MIT. The rules are in English.",
+      "homepage": "https://github.com/kharmanskyi/open-steps",
+      "source": {
+        "source": "github",
+        "repo": "kharmanskyi/open-steps"
+      }
+    },
+    {
+      "name": "headroom",
+      "author": {
+        "name": "headroomlabs-ai"
+      },
+      "category": "productivity",
+      "description": "Shrinks logs and tool output before the agent reads them (proxy + compression). 78k stars, Apache-2.0. The owner rejected Headroom for the Hermes office (extra failure point; overlaps his own token-saver); included in this bag at the owner's direction. Entry wraps the upstream headroom-skill plugin.",
+      "homepage": "https://github.com/headroomlabs-ai/headroom",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/headroomlabs-ai/headroom.git",
+        "path": "plugins/headroom-skill"
+      }
+    },
+    {
+      "author": {
+        "name": "Jakeschincariol"
+      },
+      "category": "trading",
+      "description": "11 Claude skills for day trading US stocks: chart scanner, news, entry, exit, replay simulation, risk, and alerts. Paper trading by default. 6.8k+ stars, MIT. A research/education tool, not a profit guarantee.",
+      "homepage": "https://github.com/Jakeschincariol/day-trader-skill",
+      "name": "day-trader-skill",
+      "source": {
+        "repo": "Jakeschincariol/day-trader-skill",
+        "source": "github"
+      }
+    },
+    {
+      "author": {
+        "name": "modoojunko"
+      },
+      "category": "writing",
+      "description": "Awesome Novel: a skill for writing novels with any LLM — project state detection, new-project initialization, and a structured fiction workflow handed to a novel agent. AGPL-3.0.",
+      "homepage": "https://github.com/modoojunko/awesome-novel-agent",
+      "name": "awesome-novel",
+      "skills": [
+        "./"
+      ],
+      "source": {
+        "repo": "modoojunko/awesome-novel-agent",
+        "source": "github"
+      },
+      "strict": false
+    },
+    {
+      "name": "humanizer",
+      "author": {
+        "name": "blader"
+      },
+      "category": "writing",
+      "description": "Strips AI writing tells: em dashes, the not-X-but-Y pattern, triple lists. 60k stars, MIT. For academic manuscripts use naskah-id instead.",
+      "homepage": "https://github.com/blader/humanizer",
+      "source": {
+        "source": "github",
+        "repo": "blader/humanizer"
+      }
+    },
+    {
+      "name": "naskah-id",
+      "author": {
+        "name": "nothinx"
+      },
+      "category": "writing",
+      "description": "Writes and edits Indonesian academic manuscripts: spelling, standard words, effective sentences, anti-fabricated citations. MIT.",
+      "homepage": "https://github.com/nothinx/naskah-id",
+      "source": {
+        "source": "github",
+        "repo": "nothinx/naskah-id"
+      }
+    },
+    {
+      "name": "plain-writing",
+      "author": {
+        "name": "docwriter-org"
+      },
+      "category": "writing",
+      "description": "Rewrites dense text into plain language and shows a revision view of what changed. 727 stars, MIT. Different rule set from academic writing.",
+      "homepage": "https://github.com/docwriter-org/plain-writing-skill",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/docwriter-org/plain-writing-skill.git",
+        "path": "skills"
+      },
+      "strict": false,
+      "skills": [
+        "./plain-writing"
+      ]
+    }
+  ]
+}
