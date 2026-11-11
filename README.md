@@ -47,7 +47,7 @@ Two kinds of entries live in `marketplace.json`:
 
 Entries that are **apps, frameworks, or libraries** (Remotion the framework,
 OpenCut, NautilusTrader, FreeLLMAPI, and friends) cannot be installed as
-skills at all — they are reference entries in [KATALOG.md](KATALOG.md) with
+skills at all — they are reference entries in [CATALOG.md](CATALOG.md) with
 their own usage notes.
 
 ## Public or private?
@@ -68,7 +68,7 @@ You can start private and flip the repo to public anytime in GitHub Settings.
 2. Append an entry to the `plugins` array: `name`, `description`, `category`,
    and `source: {"source": "github", "repo": "owner/repo"}`.
 3. If it is not a plugin (skill collection / app / framework), log it in
-   `KATALOG.md` under the right category, with its install command.
+   `CATALOG.md` under the right category, with its install command.
 4. Curation principles: popular (high stars), clear license, still active,
    one slot one owner (no duplicate functions).
 
