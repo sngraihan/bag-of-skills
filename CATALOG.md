@@ -1,12 +1,8 @@
-# Full Catalog — Curated Skills & Repos
+# Full Catalog — Skills by Category
 
-A hand-picked list of Claude Code skills, plugins, and related tools
-(reviewed 11 Nov 2026: stars, license, activity, usefulness). Entries marked
-"Via this marketplace" install straight from this repo's `marketplace.json` —
-either because the upstream repo is a native plugin, or because the entry
-wraps the exact skill folder inside the upstream repo. The remaining entries
-are apps, frameworks, or libraries: not skills, so they live here as
-references with usage notes.
+Entries marked "Via this marketplace" install straight from this repo's
+`marketplace.json`. The remaining entries are apps, frameworks, or libraries —
+not skills — listed as references with usage notes.
 
 Legend: ⭐ = GitHub stars as of 11 Nov 2026 (approximate).
 
@@ -116,20 +112,15 @@ paid APIs (DataForSEO/SerpApi) — the software is free, the data is pay-per-cal
 | jailbreaks | togg53192-cmd/jailbreaks | A collection of jailbreak prompts, no license. Fine as prompt-injection study material only — using them to bypass model safeguards violates provider ToS. Do NOT put this in a product pipeline |
 | MiroFish (swarm simulation) | 666ghj/MiroFish | AGPL-3.0 license — strong copyleft, risky for closed commercial products |
 
-## Curation references
-
-- Charlie Hills' "Top 30 Claude plugins/repos" list (LinkedIn/Substack,
-  Oct 2026) — the original discovery source for many entries in this catalog.
-
 ---
 
 # More installable picks
 
-Beyond the list above, **49 more repos** are installable through this
-marketplace — find them in `marketplace.json` under their categories
-(engineering, creative, video, research, marketing, documents, productivity,
-writing, security, infrastructure). Two overlap with the list above
-(`hyperframes`, `agent-skills`).
+49 more repos are installable through this marketplace — see
+`marketplace.json`, grouped under their categories (engineering, creative,
+video, research, marketing, documents, productivity, writing, security,
+infrastructure). Two overlap with the list above (`hyperframes`,
+`agent-skills`).
 
 ## Reference only — cannot be installed as skills
 

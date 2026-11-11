@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "description": "Raihan's curated collection of Claude Code plugins and skills, hand-picked and reviewed from GitHub, grouped by category. Index model: this marketplace only points to each item's original repository (whole plugin repos, or the exact skill folders inside them); no third-party code is copied into this repo.",
+  "description": "A collection of Claude Code plugins and skills, grouped by category. Index model: this marketplace only points to each item's original repository (whole plugin repos, or the exact skill folders inside them); installs fetch from upstream — no third-party code is copied into this repo.",
   "name": "bag-of-skills",
   "owner": {
     "name": "Raihan"
