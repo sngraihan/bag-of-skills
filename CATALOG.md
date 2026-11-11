@@ -1,41 +1,41 @@
-# Full Catalog — Raihan's Curated Skills & Repos
+# Full Catalog — Curated Skills & Repos
 
-This list is the full index from the curation notes (reviewed 11 Nov 2026).
-Every skill from those notes that could be found is installable through this
-repo's `marketplace.json` (marked "Via this marketplace") — either because the
-repo is a native plugin, or because the entry wraps the exact skill folder
-inside the upstream repo. The remaining entries are apps, frameworks, or
-libraries: not skills, so they live here as references with usage notes.
+A hand-picked list of Claude Code skills, plugins, and related tools
+(reviewed 11 Nov 2026: stars, license, activity, usefulness). Entries marked
+"Via this marketplace" install straight from this repo's `marketplace.json` —
+either because the upstream repo is a native plugin, or because the entry
+wraps the exact skill folder inside the upstream repo. The remaining entries
+are apps, frameworks, or libraries: not skills, so they live here as
+references with usage notes.
 
 Legend: ⭐ = GitHub stars as of 11 Nov 2026 (approximate).
 
 ---
-
-## Already owned (no need to install again)
-
-| Name | Repo | Notes |
-| --- | --- | --- |
-| REA (Reverse Engineer Anything) | morluto/rea | Installed in Claude Code (gateway profile) |
-| Karpathy skills | andrej-karpathy-skills | Installed (plugin) |
-| UI UX Pro Max | nextlevelbuilder/ui-ux-pro-max | Installed (plugin, design cluster) |
-| last30days | mvanhorn/last30days-skill | Installed |
-| scrapling | web scraping research | Installed |
-| ponytail | — | Installed, including in the official profile |
-| Agent-Reach | Panniantong/Agent-Reach | Reviewed — decided against for the official profile |
-| voice box (local voice/TTS) | — | Checked off in the notes — already set up locally |
 
 ## Agent & Engineering
 
 | Name | Repo | ⭐ | Install |
 | --- | --- | --- | --- |
 | Addy Osmani agent-skills | addyosmani/agent-skills | 115.7k | Via this marketplace: `agent-skills` |
+| REA (Reverse Engineer Anything) | morluto/rea | — | Via this marketplace: `rea` |
+| ponytail (simplest-fix, least-code discipline) | DietrichGebert/ponytail | 178k | Via this marketplace: `ponytail` |
+| Karpathy skills (coding guidelines from Andrej Karpathy's observations) | andrej-karpathy-skills | — | Plugin — install from its repo |
+| Scrapling (adaptive web scraping) | D4Vinci/Scrapling | — | Python library — install from its repo |
 | Cloudflare skills (official) | cloudflare/skills | 3.3k | Via this marketplace: `cloudflare` |
 | OpenHands (autonomous agent platform — an app, not a skill) | OpenHands/OpenHands | 93.2k | Run as an application |
+
+## Research
+
+| Name | Repo | ⭐ | Install |
+| --- | --- | --- | --- |
+| last30days (what people said in the last 30 days across Reddit, X, YouTube, the web) | mvanhorn/last30days-skill | — | Via this marketplace: `last30days` |
+| Agent-Reach (read & search X, Reddit, YouTube, GitHub without API fees) | Panniantong/Agent-Reach | 105k | Via this marketplace: `agent-reach` |
 
 ## Creative & Design
 
 | Name | Repo | ⭐ | Install |
 | --- | --- | --- | --- |
+| UI UX Pro Max | nextlevelbuilder/ui-ux-pro-max-skill | 141k | Via this marketplace: `ui-ux-pro-max` |
 | garden-skills (6 skills: beautiful-article, gpt-image-2, kb-retriever, motion-showreel, web-design-engineer, web-video-presentation) | ConardLi/garden-skills | 14.9k | Via this marketplace: `garden-skills` (all 6 wrapped) |
 | anatomy (interactive isometric illustrations) | wheresryan22/anatomy | 26.7k | Via this marketplace: `anatomy` |
 | OpenDesign (open-source Claude Design alternative) | nexu-io/open-design | 107k | Local-first desktop app (BYOK) |
@@ -97,7 +97,7 @@ paid APIs (DataForSEO/SerpApi) — the software is free, the data is pay-per-cal
 | Name | Repo | ⭐ | Notes |
 | --- | --- | --- | --- |
 | FreeLLMAPI (free-tier aggregator across 34 providers, BYOK) | tashfeenahmed/freellmapi | 50.6k | Your own keys, NOT a shared pool. Free tiers are usually dev-only under provider ToS — do not build a resale business on them |
-| OmniRouter (self-hosted router software) | omnilabs-ai/OmniRouter | 129 | Not a token source; same pattern as RouterReceh but self-hosted |
+| OmniRouter (self-hosted router software) | omnilabs-ai/OmniRouter | 129 | Not a token source — self-hosted routing software |
 
 ## Trading
 
@@ -123,34 +123,20 @@ paid APIs (DataForSEO/SerpApi) — the software is free, the data is pay-per-cal
 
 ---
 
-# From the office repo catalog (kantor.raihann.me/katalog)
+# More installable picks
 
-The office maintains its own evaluated repo catalog (57 repos, with install
-statuses and verdicts). Every repo there was probed for this marketplace
-(plugin manifest present? SKILL.md folders? or not a skill at all?).
-**49 of the 57 are now installable through this marketplace** — find them in
-`marketplace.json` under their categories (engineering, creative, video,
-research, marketing, documents, productivity, writing, security,
-infrastructure). Two were already in this bag from the notes list
+Beyond the list above, **49 more repos** are installable through this
+marketplace — find them in `marketplace.json` under their categories
+(engineering, creative, video, research, marketing, documents, productivity,
+writing, security, infrastructure). Two overlap with the list above
 (`hyperframes`, `agent-skills`).
-
-Three repos the office had marked **rejected** are included at the owner's
-direction — the rejections were for the Hermes office context, not for this
-bag: `headroom` (productivity), `hermes-jev-skills` and `claude-x-jev`
-(engineering). Their entries carry the office's reasoning.
 
 ## Reference only — cannot be installed as skills
 
 | Name | Repo | Why |
 | --- | --- | --- |
-| Graphify | Graphify-Labs/graphify | The repo itself ships no SKILL.md or plugin manifest (the office's copy is office-packaged for Hermes) — it is a tool, installed separately |
+| Graphify | Graphify-Labs/graphify | The upstream repo ships no SKILL.md or plugin manifest — it is a standalone tool, installed separately |
 | Web Interface Guidelines | vercel-labs/web-interface-guidelines | A rules document (MUST/SHOULD/NEVER lists) with no SKILL.md anywhere in the repo |
 | GSD (get-shit-done) | gsd-build/get-shit-done | A command/agent system installed via its own installer; zero SKILL.md files |
 | React Bits | DavidHDev/react-bits | A React component library (copy-paste components), not an agent skill; MIT + Commons Clause — components may not be resold |
 | SkillUI | amaancoderx/npxskillui | A CLI design-system generator; zero SKILL.md files |
-
-## Withheld
-
-| Name | Repo | Why |
-| --- | --- | --- |
-| Archify | tt-a1i/archify | Technically wrappable (skills exist under `.agents/skills/`), but the office's security scanner returned a **dangerous** verdict on 28 Oct 2026 (agent_config_mod, encoded_exfil, oversized_file findings). Withheld from a public marketplace until the owner explicitly decides otherwise. The office uses the installed Diagram Design for the same job |

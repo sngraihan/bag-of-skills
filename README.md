@@ -1,8 +1,8 @@
-# bag-of-skills — A Personal Curation Marketplace
+# bag-of-skills
 
-A Claude Code marketplace of hand-picked plugins & skills, curated from GitHub
-(starting from a personal notes list, then reviewed one by one: stars, license,
-activity, and usefulness).
+A Claude Code marketplace of hand-picked plugins & skills, curated from
+GitHub. Every repo was checked one by one: stars, license, activity, and
+whether it actually installs as a plugin or skill.
 
 **Index model:** this repo does NOT copy anyone's code. The marketplace only
 points to each plugin's original repository — when someone installs, Claude
@@ -14,18 +14,12 @@ upstream, and clean from a licensing standpoint.
 Add this marketplace to Claude Code:
 
 ```
-/plugin marketplace add <your-github-username>/bag-of-skills
+/plugin marketplace add sngraihan/bag-of-skills
 ```
 
-The marketplace currently holds **66 plugins** in 12 categories:
-engineering (16), creative (19), video (9), productivity (6), writing (4),
-infrastructure (2), security (2), research (2), SEO (2), documents (2),
-marketing (1), trading (1). It merges two curation sources: the curator's
-personal notes list, and the office repo catalog
-(kantor.raihann.me/katalog), whose 57 evaluated repos were each probed for
-plugin/skill installability before inclusion.
-
-Install any of them the same way:
+Then install any of the **66 plugins** (12 categories: engineering 16,
+creative 19, video 9, productivity 6, writing 4, infrastructure 2,
+security 2, research 2, SEO 2, documents 2, marketing 1, trading 1):
 
 ```
 /plugin install <plugin-name>@bag-of-skills
@@ -34,6 +28,12 @@ Install any of them the same way:
 ```
 /plugin install hypit@bag-of-skills
 ```
+
+The full list — including apps, frameworks, and libraries that cannot be
+installed as skills and live here as references — is in
+[CATALOG.md](CATALOG.md).
+
+## How entries work
 
 Two kinds of entries live in `marketplace.json`:
 
@@ -45,21 +45,6 @@ Two kinds of entries live in `marketplace.json`:
    Claude Code clones the upstream repo at install time and reads the skills
    from there.
 
-Entries that are **apps, frameworks, or libraries** (Remotion the framework,
-OpenCut, NautilusTrader, FreeLLMAPI, and friends) cannot be installed as
-skills at all — they are reference entries in [CATALOG.md](CATALOG.md) with
-their own usage notes.
-
-## Public or private?
-
-- **Public:** anyone can `marketplace add` this repo and install the curated
-  picks. What they install still comes from the original authors' repos.
-- **Private:** only you (signed in to the GitHub account that owns the repo)
-  can add it. Good for a purely personal collection across your own
-  machines/profiles.
-
-You can start private and flip the repo to public anytime in GitHub Settings.
-
 ## Adding new entries
 
 1. Make sure the candidate repo is actually a Claude Code plugin (it has
@@ -70,9 +55,10 @@ You can start private and flip the repo to public anytime in GitHub Settings.
 3. If it is not a plugin (skill collection / app / framework), log it in
    `CATALOG.md` under the right category, with its install command.
 4. Curation principles: popular (high stars), clear license, still active,
-   one slot one owner (no duplicate functions).
+   one slot one function (no duplicates).
 
 ## License
 
-The catalog and descriptions in this repo belong to the curator. Every plugin
-or skill it points to remains under the license of its original repository.
+The catalog and descriptions in this repo are the curator's own writing.
+Every plugin or skill it points to remains under the license of its original
+repository.

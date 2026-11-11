@@ -77,7 +77,7 @@
         "name": "morluto"
       },
       "category": "engineering",
-      "description": "REA (Reverse Engineer Anything): works out how any app actually works, from what it shows on screen down to the code underneath. 398k stars in the office catalog.",
+      "description": "REA (Reverse Engineer Anything): works out how any app actually works, from what it shows on screen down to the code underneath.",
       "homepage": "https://github.com/morluto/rea",
       "source": {
         "source": "github",
@@ -90,7 +90,7 @@
         "name": "affaan-m"
       },
       "category": "engineering",
-      "description": "ECC: a large pack of skills, memory, and security checks in one bundle. 291k stars. Much of it overlaps a Hermes-style setup.",
+      "description": "ECC: a large pack of skills, memory, and security checks in one bundle. 291k stars. Note: it is a big bundle, so expect overlap if you already run a full agent setup.",
       "homepage": "https://github.com/affaan-m/ECC",
       "source": {
         "source": "github",
@@ -245,7 +245,7 @@
         "name": "kerpopule"
       },
       "category": "engineering",
-      "description": "13 Hermes skills that put Jev in charge of small decisions: model routing, skill selection, memory, compaction. The owner declined these for the office on 29 Oct 2026; included in this bag at the owner's direction. Built for Hermes, not Claude Code.",
+      "description": "13 skills for the Hermes agent that put Jev in charge of small decisions: model routing, skill selection, memory, compaction. Built for Hermes, not Claude Code.",
       "homepage": "https://github.com/kerpopule/hermes-jev-skills",
       "source": {
         "source": "git-subdir",
@@ -275,7 +275,7 @@
         "name": "charlesdove977"
       },
       "category": "engineering",
-      "description": "A Claude Code skill that hands yes/no, label, and score decisions to Jev (TypeSafe's decision model on OpenRouter) so the expensive model only reads what needs judgment. Needs paid OpenRouter credit. Rejected for the office; included here at the owner's direction.",
+      "description": "A Claude Code skill that hands yes/no, label, and score decisions to Jev (TypeSafe's decision model on OpenRouter) so the expensive model only reads what needs judgment. Needs paid OpenRouter credit.",
       "homepage": "https://github.com/charlesdove977/claude-x-jev",
       "source": {
         "source": "git-subdir",
@@ -1054,7 +1054,7 @@
         "name": "JuliusBrussee"
       },
       "category": "productivity",
-      "description": "Short plain answers so tokens stop burning. 115k stars, Apache-2.0. Bad for explaining concepts to the owner — short answers make it worse there.",
+      "description": "Short plain answers so tokens stop burning. 115k stars, Apache-2.0. Not ideal when you need a concept explained in depth.",
       "homepage": "https://github.com/JuliusBrussee/caveman",
       "source": {
         "source": "github",
@@ -1067,7 +1067,7 @@
         "name": "sngraihan"
       },
       "category": "productivity",
-      "description": "The curator's own skill: thins large tool output, skips repeated commands, gates scheduled LLM sessions on real state changes, and measures daily tokens per profile. MIT. Does not compress instruction files or memory.",
+      "description": "Thins large tool output, skips repeated commands, gates scheduled LLM sessions on real state changes, and measures daily token use. MIT. Does not compress instruction files or memory.",
       "homepage": "https://github.com/sngraihan/token-saver",
       "source": {
         "source": "github",
@@ -1123,7 +1123,7 @@
         "name": "headroomlabs-ai"
       },
       "category": "productivity",
-      "description": "Shrinks logs and tool output before the agent reads them (proxy + compression). 78k stars, Apache-2.0. The owner rejected Headroom for the Hermes office (extra failure point; overlaps his own token-saver); included in this bag at the owner's direction. Entry wraps the upstream headroom-skill plugin.",
+      "description": "Shrinks logs and tool output before the agent reads them (proxy + compression). 78k stars, Apache-2.0. Wraps the upstream headroom-skill plugin.",
       "homepage": "https://github.com/headroomlabs-ai/headroom",
       "source": {
         "source": "git-subdir",
